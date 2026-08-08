@@ -1,0 +1,55 @@
+# ==========================================
+# 1. Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+*.env
+.env.*
+
+# ==========================================
+# 2. Virtual Environments (uv / venv)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# 3. Project-Specific Downloads & Databases
+# ==========================================
+# Downloaded YouTube/local audio and video files
+downloades/
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.webm
+*.mov
+*_converted.wav
+*_chunk_*.wav
+
+# ChromaDB local vector store folder
+vector_db/
+
+# Whisper local model cache (downloaded weights)
+.cache/
+~/.cache/whisper/
+
+# ==========================================
+# 4. Python Cache & Compiled Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# 5. IDE & OS Specific Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

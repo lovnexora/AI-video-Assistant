@@ -1,0 +1,46 @@
+# ===== UI / App Framework =====
+streamlit>=1.36.0
+
+# ===== Audio Ingestion (Google Drive / YouTube / uploaded files) =====
+yt-dlp>=2024.7.1
+pytube>=15.0.0
+requests>=2.32.0
+google-api-python-client>=2.140.0
+google-auth>=2.32.0
+google-auth-oauthlib>=1.2.0
+
+# ===== Audio Processing =====
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+# Python 3.13 removed the stdlib 'audioop' module that pydub needs.
+# This marker means: only install it on Python 3.13+, skip it on older versions.
+audioop-lts>=0.2.1; python_version >= "3.13"
+
+# ===== Transcription (local Whisper) =====
+openai-whisper>=20231117
+faster-whisper>=1.0.3
+torch>=2.3.0
+torchaudio>=2.3.0
+
+# ===== LangChain / LCEL + Google LLM =====
+langchain>=0.2.11
+langchain-core>=0.2.24
+langchain-community>=0.2.10
+langchain-google-genai>=1.0.8
+google-generativeai>=0.7.2
+
+# ===== RAG: Vector DB + Embeddings (Hugging Face) =====
+chromadb>=0.5.4
+sentence-transformers>=3.0.1
+transformers>=4.43.3
+huggingface-hub>=0.24.5
+
+# ===== Export (PDF / TXT) =====
+fpdf2>=2.7.9
+reportlab>=4.2.2
+
+# ===== Utilities =====
+python-dotenv>=1.0.1
+tqdm>=4.66.4
+numpy>=1.26.4
+pandas>=2.2.2
