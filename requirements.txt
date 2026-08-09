@@ -7,7 +7,6 @@ yt-dlp
 pydub
 static-ffmpeg
 groq
-audioop-lts
 langchain
 langchain-core
 langchain-community
