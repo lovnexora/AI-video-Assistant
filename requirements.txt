@@ -14,5 +14,7 @@ langchain-mistralai
 langchain-chroma
 sentence-transformers
 chromadb
+torch
+torchvision
 google-generativeai
 fpdf2
