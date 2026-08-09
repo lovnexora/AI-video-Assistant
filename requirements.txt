@@ -11,5 +11,8 @@ langchain-core
 langchain-community
 langchain-google-genai
 langchain-mistralai
+langchain-chroma
+sentence-transformers
+chromadb
 google-generativeai
 fpdf2
