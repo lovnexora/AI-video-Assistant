@@ -10,5 +10,6 @@ langchain
 langchain-core
 langchain-community
 langchain-google-genai
+langchain-mistralai
 google-generativeai
 fpdf2
